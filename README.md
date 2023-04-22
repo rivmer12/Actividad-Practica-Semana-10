@@ -2,3 +2,4 @@
 ## Integrante:
 - Rivera Merino Braulio
 - Garcia Quinto Cristhian
+- Torres Camayo Yeferson ( comodín )
