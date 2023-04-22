@@ -1,0 +1,35 @@
+
+.div1{
+    margin: 5px auto 10px auto;
+    width: 90%;
+    border: 1px solid rgba(128, 128, 128,30%);
+}
+.div11{
+    background-color: rgb(211, 219, 223);
+}
+.div11 *{
+    color: #2191d6;
+}
+.div2{
+    display: flex;
+    justify-content: flex-start;
+}
+.div2 a{
+    color:rgb(25, 71, 197);
+    font-size: 20px;
+    font-weight: 900;
+}
+.img1{
+    padding: 0 10px;
+    width: 50px;
+    height: 50px;
+}
+.div21{
+    color: black;
+    border: none;
+}
+.div2 p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
