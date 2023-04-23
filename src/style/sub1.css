@@ -12,6 +12,7 @@
 .divEncabezado a{
     font-size: 25px;
     color: rgba(33, 129, 197, 0.808);
+    font-family:Georgia;
 }
 .divBorder a:hover{
     text-decoration: underline;
@@ -36,7 +37,7 @@
 }
 
 .subdivs1{
-    padding: 10px;
+    padding: 15px;
     width: 600px;
     display: flex;
     flex-direction: row;
@@ -60,19 +61,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .colorAnchor{
     color:#2577b1;
     font-size: 17px;
     font-weight: 700;
-    font-family: 'Segoe UI';
 }
 
 .stiloParrafo{
-    font-family:'Segoe UI';
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .stiloparrafoGroup{
@@ -84,4 +83,13 @@
 
 .radiusBorde{
     border-radius: 5px 5px 0 0;
+}
+
+.prueba{
+    width: 100%;
+}
+
+.font *{
+    font-family: 'Segoe UI';
+    letter-spacing: 0.30px;
 }
