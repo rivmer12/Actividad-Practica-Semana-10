@@ -1,35 +1,70 @@
 
-.div1{
-    margin: 5px auto 10px auto;
-    width: 90%;
-    border: 1px solid rgba(128, 128, 128,30%);
+.divBorder{
+    border: 1px solid rgb(199, 197, 197);
+    border-bottom: none;
 }
-.div11{
-    background-color: rgb(211, 219, 223);
+
+.divEncabezado{
+    background-color: #dbebfa;
+    color: rgba(65, 141, 192, 0.7);
+    padding: 10px;
 }
-.div11 *{
-    color: #2191d6;
+.divEncabezado a{
+    font-size: 25px;
+    color: rgba(33, 129, 197, 0.808);
 }
-.div2{
+
+.divArticulos{
+    background-color: white;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
-.div2 a{
-    color:rgb(25, 71, 197);
-    font-size: 20px;
-    font-weight: 900;
+
+.divArticulos img{
+    width: 45px;
+    height: 45px;
+    padding-right: 10px;
 }
-.img1{
+
+.subdivs1{
+    padding: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.subdivs2{
+    width: 150px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+.subdivs1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subdivs2 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0 10px;
-    width: 50px;
-    height: 50px;
 }
-.div21{
-    color: black;
-    border: none;
+
+.colorH3{
+    color:#2577b1;
+    font-size: 22px;
 }
-.div2 p{
-    font-size: 15px;
-    font-weight: 400;
+
+.stiloParrafo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 12px;
+}
+
+.stiloparrafoGroup{
+    color: gray;
 }
 
