@@ -1,0 +1,33 @@
+.div1{
+    margin: 5px auto;
+    width: 40%;
+}
+.div11{
+    background-color: rgb(211, 219, 223);
+}
+.div11 *{
+    color: #2191d6;
+}
+.div2{
+    display: flex;
+    justify-content: flex-start;
+}
+.div2 a{
+    color:rgb(25, 71, 197);
+    font-size: 20px;
+    font-weight: 900;
+}
+img{
+    padding-top: 20px;
+    padding: 20px 20px 0 10px;
+    width: 50px;
+    height: 50px;
+}
+.div21{
+    color: black;
+    border: none;
+}
+.div2 p{
+    font-size: 15px;
+    font-weight: 400;
+}
