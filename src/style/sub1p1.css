@@ -1,0 +1,69 @@
+.dibBorde1{
+    border: 1px solid rgb(221, 218, 218);
+    padding: 8px;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.dibBorde2{
+    border: 1px solid rgb(221, 218, 218);
+    padding: 8px;
+    border-radius: 0 0 5px 5px;
+    border-top: none;
+    background-color: rgba(252, 251, 251, 0.3);
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+}
+.subrayadoan a:hover{
+    text-decoration: underline;
+}
+.dibBorde1 p a{
+    color: #2577b1;
+    font-size: 12px;
+}
+.anchorSup{
+    color: #3091d6;
+    font-size: 20px;
+}
+
+.prinCol1{
+    padding: 0 0 10px 0;
+    color: #3091d6;
+    font-size: 20px;
+}
+
+.prinCol2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columna2{
+    text-align: right;
+}
+
+.div2prin{
+    border: 1px solid rgb(221, 218, 218);
+    padding: 10px;
+    background-color: white;
+}
+.colorp1 p{
+    color: gray;
+}
+
+#an11{
+    color: #2577b1;
+}
+
+.gifs{
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.gifs a img{
+    width: 20px;
+    height: 20px;
+}
