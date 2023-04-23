@@ -10,7 +10,7 @@
     padding: 10px;
 }
 .divEncabezado a{
-    font-size: 23px;
+    font-size: 16pt;
     color: rgba(33, 129, 197, 0.808);
     font-family:Georgia;
 }
@@ -19,7 +19,7 @@
 }
 
 .colorAnchorEsp{
-    font-size: 16px;
+    font-size: 12pt;
     font-family:monospace;
     color: #2577b1;
 }
@@ -66,12 +66,12 @@
 
 .colorAnchor{
     color:#2577b1;
-    font-size: 17px;
+    font-size: 13pt;
     font-weight: 700;
 }
 
 .stiloParrafo{
-    font-size: 14px;
+    font-size: 11pt;
 }
 
 .stiloparrafoGroup{
@@ -89,7 +89,11 @@
     width: 100%;
 }
 
+.prueba h2{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 19pt;
+}
 .font *{
-    font-family: 'Segoe UI';
     letter-spacing: 0.30px;
 }
