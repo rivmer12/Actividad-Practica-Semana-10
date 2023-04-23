@@ -49,19 +49,35 @@ body{
   }
 .maincontent{
     display: flex;
-    width: 80%;
+    width: 88%;
     justify-content: space-between;
 }
 .article{
     width: 77%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.043) ;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article .content-article{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.article .column-article-left{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  gap:15px;
+}
+.article .column-article-right{
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  gap:15px;
 }
 .menu{
     width: 22%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.043) ;
 }
 .header li a{
   text-decoration: none;
@@ -144,19 +160,21 @@ body{
 }
 .article #titlePage{
   width: 100%;
+  margin: 10px 0;
 }
 .porta-article{
-  border: 1px black solid;
-  width: 48%;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px rgba(200, 200, 200, 0.63) solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 20px;
+  box-shadow: 1px 1px 1px 0px rgba(128, 128, 128, 0.033);
 }
 
 .porta-article header{
-  background-color: #bcdef5;
-  height: 35px;
+  background-color: #d4edfd85;
+  height: 50px;
   display: flex;
   align-items: center;
   padding: 0 15px;
@@ -164,7 +182,7 @@ body{
 .porta-article .title-article{
   color: #2577b1;
   font-weight: 100;
-  font-size: 15pt;
+  font-size: 14pt;
 }
 .body-article{
   height: 100%;
@@ -173,8 +191,10 @@ body{
   background-color: rgb(255, 255, 255);
 }
 .body-article .box-date{
-  width: 50px;
+  position: absolute;
+  width: 35px;
   height: 70px;
+  margin-top: 1em;
   margin-left: -1em;
   background-color: rgb(248, 248, 248);
   display: flex;
@@ -190,7 +210,7 @@ body{
   font-size: 16pt;
 }
 #inner{
-  margin: 0 15px;
+  margin: 0 15px 0 35px  ;
 }
 #inner .article-info{
     display: flex;
@@ -201,25 +221,42 @@ body{
 }
 #inner .content-profileimg{
   display: flex;
-  font-size: 11pt;
 }
 #inner .content-profileimg img{
   border-radius: 50%;
   height: 60px;
+  padding: 50% 0;
+} 
+#inner .content-profileimg .demo-content-article {
+  font-size: 11pt;
+  align-self: center;
+  padding: 10px 4px;
 }
 .porta-article footer{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: rgb(235, 235, 235);
-    height: 30px;
+    background-color: rgb(245, 245, 245);
+    height: 50px;
 }
 .porta-article footer button{
   appearance: none;
   border: none;
   background-color: #2577b1;
-  color: rgba(231, 231, 231, 0.911);
+  color: rgb(250, 250, 250);
   height: 20px;
   width: 100px;
   font-size: 12pt;
+  margin-right: 10px;
 }
+.box-article-left{
+  width: 100%;
+}
+.box-article-right{
+  width: 100%;
+  height:220px;
+}
+.box-article-right .body-article{
+  height: 150px;
+}
+ 
