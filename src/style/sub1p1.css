@@ -48,6 +48,7 @@
     border: 1px solid rgb(221, 218, 218);
     padding: 10px;
     background-color: white;
+    border-radius: 5px 5px 0 0;
 }
 .colorp1 p{
     color: gray;
@@ -62,6 +63,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
+    border-radius: 5px 5px 0 0;
 }
 .gifs a img{
     width: 20px;
